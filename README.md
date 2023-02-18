@@ -1,6 +1,6 @@
 # Task List
 
-Este projeto foi criado como parte do curso "Input" da CodarMe e é uma aplicação de lista de tarefas desenvolvida com React usando Vite e UserContext.
+Este projeto foi criado como parte do curso "Input" da CodarMe e é uma aplicação de lista de tarefas desenvolvida com React usando Vite e Context.
 
 ## Instalação
 
