@@ -16,7 +16,7 @@ Para executar este projeto localmente, siga as seguintes etapas:
 
 `npm run dev`
 
-5. Abra seu navegador em http://localhost:3000 e a aplicação deve estar funcionando.
+5. Abra seu navegador em http://localhost:5173/ e a aplicação deve estar funcionando.
 
 ## Funcionalidades
 
