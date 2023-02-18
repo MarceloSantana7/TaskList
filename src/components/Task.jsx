@@ -9,13 +9,28 @@ export function Task({ name, status }) {
 
   const { tasks, setTasks } = useContext(TasksContext);
 
+  const removeItem = () => {
+    const updateTasks = tasks.filter(task => task.name !== name);
+    console.log(updateTasks);
+    setTasks(updateTasks);
+  };
+
+  const updateTaskStatus = () => {
+    const updatedTasks = tasks.map(task => {
+      if (task.name === name) {
+        return { ...task, status: !status };
+      } else {
+        return task;
+      }
+    });
+    setTasks(updatedTasks);
+  };
+
   return (
     <div className='TaskSingle'>
-      {status ? <img src={check} alt="" /> : <img src={frame} alt="" />}
-      <span>{name}</span>
-      <img src={remove} alt="" onClick={() => setTasks([
-        { name: 'Criar projeto 🛹', status: true }
-      ])} />
+      {status ? <img src={check} alt="" onClick={updateTaskStatus} /> : <img src={frame} alt="" onClick={updateTaskStatus} />}
+      <span className={status ? 'active' : ''} onClick={updateTaskStatus}>{name}</span>
+      <img src={remove} alt="" onClick={removeItem} />
     </div>
   );
 }

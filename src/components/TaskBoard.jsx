@@ -13,14 +13,16 @@ export function TaskBoard() {
 
   return (<>
     <AddNew tasks={tasks} setTasks={setTasks}></AddNew>
+
     <div className='TaskBoardBlock'>
       <img src={board} />
       <span>Quadro de tarefas</span>
     </div>
+
     <div className='TaskBoardTasks'>
       {tasks.map(
-        (task, i) => 
-        <Task name={task.name} status={task.status} key={i}></Task>
+        (task, i) =>
+          <Task name={task.name} status={task.status} key={i}></Task>
       )}
     </div>
   </>);
