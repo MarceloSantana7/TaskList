@@ -49,3 +49,14 @@
 .TaskBlock button:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 700px) {
+  .TaskBlock {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .TaskBlock input[type='text'] {
+    width: 400px;
+  }
+}

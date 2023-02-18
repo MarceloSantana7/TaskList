@@ -1,6 +1,6 @@
 .TaskSingle {
   height: 72px;
-  width: 640px;
+  max-width: 640px;
   display: flex;
   background-color: white;
   border-radius: 24px;
@@ -28,4 +28,9 @@
 .active {
   color: var(--green);
   text-decoration: line-through;
+}
+
+@media (max-width: 700px) {
+  .TaskSingle {
+  }
 }
