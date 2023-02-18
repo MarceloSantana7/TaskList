@@ -1,0 +1,14 @@
+.TaskBoardBlock {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  gap: 20px;
+}
+
+.TaskBoardTasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}

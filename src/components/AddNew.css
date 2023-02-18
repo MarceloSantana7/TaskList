@@ -1,0 +1,51 @@
+.AddNew {
+  margin-bottom: 30px;
+}
+
+.AddNewTask {
+  font-size: 1.5rem;
+  font-family: 'Space Grotesk';
+  color: var(--dark1);
+  font-weight: 700;
+}
+
+.AddNewBlock {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+  font-family: 'Space Grotesk';
+}
+
+.TaskBlock {
+  height: 56px;
+  display: flex;
+  gap: 20px;
+  font-family: 'Space Grotesk';
+}
+
+.TaskBlock input[type='text'] {
+  height: 56px;
+  width: 472px;
+  border-radius: 16px;
+  outline: 0;
+  border: 1px solid var(--gray);
+  font-family: inherit;
+  padding: 16px;
+  font-size: 1rem;
+}
+
+.TaskBlock button {
+  background-color: var(--green);
+  height: 56px;
+  width: 152px;
+  border: 0;
+  border-radius: 16px;
+  font-family: inherit;
+  font-weight: 400;
+  color: white;
+}
+
+.TaskBlock button:hover {
+  cursor: pointer;
+}

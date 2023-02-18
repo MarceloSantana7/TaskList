@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --dark: #18161f;
+  --dark1: #262331;
+  --dark2: #787490;
+  --gray: #d6d4e2;
+  --gray1: #f5f4f6;
+  --white: #ffffff;
+  --green: #02b553;
+  --pink: #ff497d;
+  --bgGray: #e5e5e5;
+}
+
+.App {
+  background-color: var(--bgGray);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+  font-family: 'Space Grotesk';
+}
+
+.App_main {
+  width: 750px;
+  height: 100%;
+  padding-top: 70px;
+}

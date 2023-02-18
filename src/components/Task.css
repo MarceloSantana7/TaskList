@@ -1,0 +1,26 @@
+.TaskSingle {
+  height: 72px;
+  width: 640px;
+  display: flex;
+  background-color: white;
+  border-radius: 24px;
+  align-items: center;
+  padding: 24px;
+  border: 2px solid transparent;
+  justify-content: space-between;
+}
+
+.TaskSingle img {
+  margin-right: 24px;
+}
+
+.TaskSingle span {
+  font-size: 1rem;
+  display: flex;
+  flex: 1;
+}
+
+.TaskSingle:hover {
+  border: 2px solid var(--green);
+  cursor: pointer;
+}
