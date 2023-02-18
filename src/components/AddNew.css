@@ -57,6 +57,6 @@
   }
 
   .TaskBlock input[type='text'] {
-    width: 400px;
+    width: 100%;
   }
 }
